@@ -94,6 +94,22 @@ adb push ./hosts /system/etc
 4. TIP : You can use the hosts file provided in my repo (hosts) !
 4. Remember, Miui loves speaking to their servers, so, the hosts file in /system/etc is written new on every reboot by the bad MIUI
 
+## Optional: Block DNS (root method)
+1. Unlock your device
+2. Download TWRP-3.3.1-16-Mi9SE provided by https://github.com/redispade/device_xiaomi_grus-twrp/releases
+3. Execute these commands to install TWRP on your Xiaomi:
+adb devices
+fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img
+fastboot flash recovery twrp-3.3.1-16-Mi9SE.img
+fastboot boot twrp-3.3.1-16-Mi9SE.img
+4. Install your ROM (LineageOS, MIUI, etc.)
+4.1 The best way for MIUI is to go back on the '1.', install MiFlash on Windows, search on Google the proper MIUI recovery image 'grus_global_images_V11.0.2.0.tgz'. Download only the '.tgz' file. Then uncompress twice. You should get a folder, and inside this one, an 'images' folder. Start MiFlash, plug your phone, click on refresh, then browse, select the 'images' folder just created. Click on 'Flash all' dot button. Then follow the TWRP installation '2.'.
+5. Start TWRP with a long press on the lock button + volume up. You should feel a vibration
+6. Install Magisk app through the advanced menu on TWRP
+7. Start your phone on MIUI and open Magisk app. Click on the menu then Downloads. Find "Systemless Hosts", install it. Go back to the app menu and select "Settings", then click on "File hosts out of system partition". Reboot your phone.
+8. Install F-Droid through your browser (e.g Chrome), and search "AdAway". Install it and start the application. Follow the pocess to custom the hosts file by pressing the red button.
+8.1 Go the menu app then "Your list", add mine https://github.com/koff75/secure-miui-11-bloatwares/blob/master/hosts
+9. Voilà ! :)
 
-
+More information:
 [https://www.youtube.com/watch?v=XsADoRwdobU](https://www.youtube.com/watch?v=XsADoRwdobU)
