@@ -1,5 +1,9 @@
-127.0.0.1       localhost
-::1             ip6-localhost
+127.0.0.1       resolver.msg.global.xiaomi.net
+127.0.0.1       api.ad.intl.xiaomi.com
+127.0.0.1       us.find.api.micloud.xiaomi.net
+127.0.0.1       fr.app.chat.global.xiaomi.net
+127.0.0.1       sdkconfig.ad.intl.xiaomi.com
+127.0.0.1       api.sec.intl.miui.com
 127.0.0.1       market.xiaomi.com
 127.0.0.1       api.ad.xiaomi.com
 127.0.0.1       notice.game.xiaomi.com
