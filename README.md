@@ -1,5 +1,5 @@
-# secure-miui-11-bloatwares
-Script to remove pre-installed apps from Xiaomi MIUI 11 for a better privacy.
+# secure-miui-12-bloatwares
+Script to remove pre-installed apps from Xiaomi MIUI 11 & 12 for a better privacy.
 
 ## Why
 Because my Xiaomi's phone is always speaking to Chineese servers (telemetry and so on), even if I desactivate all Xiaomi services.<br/>
@@ -31,7 +31,7 @@ Please do some backups before going to execute the script.
 In some cases depending on your settings, you can definitly crash the Mi UI. 
 If it happens, you'll find an infinite loop with a logo "just a sec". Then, go to the settings menu and restore your device with the appropriate button.
 
-On my example, I have fresh Miui 11 (EU) on a Xiaomi Mi 9 SE.
+On my example, I have fresh Miui 11/12 (EU) on a Xiaomi Mi 9 SE.
 
 ## Steps
 Clone the repo, add the execute permission on the file, download "adb" on your computer, put your phone in the debug mode (via developper menu), comment / uncomment lines depending on your needs and excute it.
