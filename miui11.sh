@@ -141,3 +141,8 @@ adb shell pm uninstall -k --user 0 com.android.providers.downloads.ui # Download
 adb shell pm uninstall -k --user 0 com.google.android.videos
 adb shell pm uninstall -k --user 0 com.google.android.apps.tachyon
 adb shell pm uninstall -k --user 0 com.google.android.music
+# MIUI 12
+adb shell pm uninstall -k --user 0 com.mi.globalbrowser
+adb shell pm uninstall -k --user 0 com.xiaomi.calendar
+
+
