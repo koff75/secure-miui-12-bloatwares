@@ -137,6 +137,8 @@ adb shell pm uninstall -k --user 0 com.xiaomi.xmsf
 adb shell pm uninstall -k --user 0 android.autoinstalls.config.Xiaomi.persus	
 adb shell pm uninstall -k --user 0 com.android.providers.downloads.ui # Download app, replace with Files from Google App
 # adb shell pm uninstall -k --user 0 com.android.contacts # You can replace with Google Contacts App
+adb shell pm uninstall -k --user 0 com.huami.watch.hmwatchmanager
+adb shell pm uninstall -k --user 0 com.android.thememanager
 # Android part
 adb shell pm uninstall -k --user 0 com.google.android.videos
 adb shell pm uninstall -k --user 0 com.google.android.apps.tachyon
