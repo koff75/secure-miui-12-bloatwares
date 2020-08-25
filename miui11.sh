@@ -144,5 +144,9 @@ adb shell pm uninstall -k --user 0 com.google.android.music
 # MIUI 12
 adb shell pm uninstall -k --user 0 com.mi.globalbrowser
 adb shell pm uninstall -k --user 0 com.xiaomi.calendar
+# Games
+adb shell pm uninstall -k --user 0 com.block.puzzle.game.hippo.mi
+adb shell pm uninstall -k --user 0 com.bubble.free.bubblestory   
+adb shell pm uninstall -k --user 0 com.crazy.juicer.xm        
 
 
